@@ -1,5 +1,5 @@
 @ECHO OFF
-SET RealCMDPath=git commit -m
+SET RealCMDPath=git push
 
 SET cmdparams=%1
 shift
