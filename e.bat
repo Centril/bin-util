@@ -1,5 +1,5 @@
 @ECHO OFF
-SET RealCMDPath=git push
+SET RealCMDPath=explorer
 
 SET cmdparams=%1
 shift
