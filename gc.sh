@@ -2,4 +2,4 @@
 
 first="$1"
 shift
-git commit -m "$first" "$@"
+git commit -m "$first" $@
