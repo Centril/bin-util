@@ -1,0 +1,10 @@
+#!/bin/sh
+
+#---------------------------------------------------#
+# git-set-upstream sets current branch as upstream. #
+#---------------------------------------------------#
+
+name=$(git-current-branch)
+git push --set-upstream origin $name
+
+echo "pushed upstream: $name to origin/$name"
