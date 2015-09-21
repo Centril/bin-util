@@ -21,12 +21,12 @@ echo $msg
 echo $push
 echo "${ARGS[*]}"
 
-if [ $msg -eq 0 ] ; then
+if [[ $msg == 0 ]] ; then
 	git commit ${ARGS[*]}
 else
 	git commit -m "$msg" ${ARGS[*]}
 fi
 
-if [ $push -eq 1 ] ; then
+if [[ $push == 1 ]] ; then
 	git push
 fi
