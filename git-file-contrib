@@ -1,3 +1,0 @@
-#!/bin/sh
-
-git log --stat=1000,1000 --pretty=format:'%cN' | perl D:/centril-bin/git-file-contrib-script.pl
