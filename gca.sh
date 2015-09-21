@@ -20,6 +20,6 @@ git add -A $add
 git status -sb
 git commit -m "$msg" ${ARGS[*]}
 
-if [ $push -eq 1 ] ; then
+if [[ $push -eq 1 ]] ; then
 	git push
 fi

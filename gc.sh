@@ -17,10 +17,6 @@ do
 	fi
 done
 
-echo $msg
-echo $push
-echo "${ARGS[*]}"
-
 if [[ $msg == 0 ]] ; then
 	git commit ${ARGS[*]}
 else
