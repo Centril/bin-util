@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 add=$1
 msg=$2

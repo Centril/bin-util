@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 msg=0
 if [ ${1:0:1} != "-" ] ; then
